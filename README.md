@@ -36,7 +36,7 @@ Vascular Lesions
 📎 **Dataset link**: ISIC 2019 – Kaggle
 
 
-🛠️ ** Methodology**
+🛠  ** Methodology**
 
 
 🔹 ** Traditional Feature Extraction**

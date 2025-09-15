@@ -3,7 +3,7 @@ Comparative Analysis of Traditional Features and Deep Learning for Skin Disease 
 **Project Overview**
 This project explores skin disease classification using the ISIC-2019 dataset, comparing traditional handcrafted feature extraction methods (HOG, LBP, Edge detection) with deep learning approaches (ResNet50, VGG16, MobileNet). The goal is to analyze accuracy, robustness, interpretability, and trade-offs between these techniques in medical image classification.
 
-📂 **Dataset**
+📂 **Dataset** //
 We used the ISIC-2019 dataset, containing 25,331 dermoscopic images across 8 clinically relevant skin disease categories:
 
 Actinic Keratosis

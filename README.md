@@ -5,11 +5,11 @@
 
 This project explores skin disease classification using the ISIC-2019 dataset, comparing:
 
-Traditional handcrafted feature extraction methods (HOG, LBP, Edge detection)
+1. Traditional handcrafted feature extraction methods (HOG, LBP, Edge detection)
 
-Deep learning approaches (ResNet50, VGG16, MobileNet)
+2. Deep learning approaches (ResNet50, VGG16, MobileNet)
 
-The goal is to analyze accuracy, robustness, interpretability, and trade-offs between these techniques in medical image classification.
+3. The goal is to analyze accuracy, robustness, interpretability, and trade-offs between these techniques in medical image classification.
 
 
 📂 **Dataset**
@@ -17,21 +17,21 @@ The goal is to analyze accuracy, robustness, interpretability, and trade-offs be
 
 We used the ISIC-2019 dataset, containing 25,331 dermoscopic images across 8 clinically relevant categories:
 
-Actinic Keratosis
+1. Actinic Keratosis
 
-Basal Cell Carcinoma
+2. Basal Cell Carcinoma
 
-Benign Keratosis
+3. Benign Keratosis
 
-Dermatofibroma
+4. Dermatofibroma
 
-Melanocytic Nevus
+5. Melanocytic Nevus
 
-Melanoma
+6. Melanoma
 
-Squamous Cell Carcinoma
+7. Squamous Cell Carcinoma
 
-Vascular Lesions
+8. Vascular Lesions
 
 📎 **Dataset link**: https://www.kaggle.com/datasets/mdefajalam/isic-2019-skin-disease/data
 
@@ -45,23 +45,23 @@ Preprocessing: Grayscale conversion, resizing (128×128), normalization
 
 Techniques:
 
-Histogram of Oriented Gradients (HOG)
+a) Histogram of Oriented Gradients (HOG)
 
-Local Binary Patterns (LBP)
+b) Local Binary Patterns (LBP)
 
-Edge Features (Canny-based)
+c) Edge Features (Canny-based)
 
-Classifiers: Logistic Regression, KNN, Decision Tree, Random Forest
+d) Classifiers: Logistic Regression, KNN, Decision Tree, Random Forest
 
-Evaluation Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC, Cohen’s Kappa, robustness under noise & perturbations
+e) Evaluation Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC, Cohen’s Kappa, robustness under noise & perturbations
 
 🔹 Deep Learning Approach
 
-Base Models: Pretrained ResNet50, VGG16, MobileNet (transfer learning)
+a) Base Models: Pretrained ResNet50, VGG16, MobileNet (transfer learning)
 
-Preprocessing: Resize (224×224), normalization, augmentation (rotation, flips, zoom, contrast, Gaussian noise)
+b) Preprocessing: Resize (224×224), normalization, augmentation (rotation, flips, zoom, contrast, Gaussian noise)
 
-Architecture:
+c) Architecture:
 
 Frozen CNN backbone (ResNet50)
 
@@ -71,9 +71,9 @@ Dense + Dropout layers
 
 Softmax output (8 classes)
 
-Training: Adam optimizer, Categorical Cross-Entropy, Early Stopping, ModelCheckpoint
+d) Training: Adam optimizer, Categorical Cross-Entropy, Early Stopping, ModelCheckpoint
 
-Evaluation: Confusion Matrix, ROC–AUC, Cohen’s Kappa, Precision-Recall curves, Top-K accuracy, saliency maps
+e) Evaluation: Confusion Matrix, ROC–AUC, Cohen’s Kappa, Precision-Recall curves, Top-K accuracy, saliency maps
 
 📊  **Results**
 

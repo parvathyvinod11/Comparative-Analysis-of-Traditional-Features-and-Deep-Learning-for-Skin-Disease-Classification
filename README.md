@@ -33,7 +33,7 @@ Squamous Cell Carcinoma
 
 Vascular Lesions
 
-📎 **Dataset link**: ISIC 2019 – Kaggle
+📎 **Dataset link**: https://www.kaggle.com/datasets/mdefajalam/isic-2019-skin-disease/data
 
 
 🛠 Methodology
@@ -77,7 +77,7 @@ Evaluation: Confusion Matrix, ROC–AUC, Cohen’s Kappa, Precision-Recall curve
 
 📊 Results
 
-Traditional Methods**
+Traditional Methods
 
 Best Accuracy: 55% (HOG + Random Forest)
 

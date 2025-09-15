@@ -35,10 +35,10 @@ Vascular Lesions
 📎 **Dataset link**: ISIC 2019 – Kaggle
 
 
-🛠️** Methodology**
+🛠️ ** Methodology**
 
 
-🔹** Traditional Feature Extraction**
+🔹 ** Traditional Feature Extraction**
 
 Preprocessing: Grayscale conversion, resizing (128×128), normalization
 
@@ -75,7 +75,7 @@ Training: Adam optimizer, Categorical Cross-Entropy, Early Stopping, ModelCheckp
 Evaluation: Confusion Matrix, ROC–AUC, Cohen’s Kappa, Precision-Recall curves, Top-K accuracy, saliency maps
 
 📊 **Results**
-**
+
 Traditional Methods**
 
 Best Accuracy: 55% (HOG + Random Forest)
@@ -94,7 +94,7 @@ Best Class Performance: Melanocytic Nevus (F1 = 0.82)
 
 Challenges: Poor performance on minority classes (Dermatofibroma, Vascular Lesions)
 
-📌** Key Insights**
+📌 ** Key Insights**
 
 ✅ Traditional methods → Lightweight, interpretable, resource-friendly, but limited with complex lesion patterns.
 
